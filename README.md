@@ -1,3 +1,5 @@
+Original version developed in collaboration on GitLab.
+
 # Project: Counting Trees
 
 Welcome to the **Counting Trees Project** GitLab repository! As the title suggests, the goal of this project is to _count trees_. You might be asking, "What do you mean?" 🤔 Let us break it down for you...
@@ -27,3 +29,4 @@ A realization of a dense Thomas Point Process looks like this:
 This is suspiciously similar to what we see in the LiDAR output. The only difference is the size of each cluster. Therefore, we are using statistical methods to infer the parameters of the superposition of Thomas processes that could recreate the LiDAR output, which will allow us to estimate the number of trees.
 
 [^1]: The original LiDAR output consists of points in 3D space where the laser rays intersect with objects. However, it does not account for the altitude offset introduced by the topology of the forest.
+
