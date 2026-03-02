@@ -1,0 +1,9 @@
+__pycache__/
+*.png
+*.jpg
+!img/*
+*.csv
+venv/*
+draft.py
+.venv/
+*.eps
